@@ -1,7 +1,5 @@
 /*Feel free review this code */
-
-var i;
-for (i=0;i<=100;i++) /*For loop for printing the n numbers. In this case 1 to 100*/
+for (let i=0;i<=100;i++) /*For loop for printing the n numbers. In this case 1 to 100*/
 {
     if (i%3==0 && i%5==0){                      /* if statement used inside for loop to check wether a number is divisible by 
                                                    by both 3 and 5 */
